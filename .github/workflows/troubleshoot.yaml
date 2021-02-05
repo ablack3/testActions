@@ -16,5 +16,6 @@ jobs:
     steps:
       - name: print
         run: |
-          pwd
+          pwd 
+          perl --version
           
