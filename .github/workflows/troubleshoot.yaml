@@ -14,9 +14,11 @@ jobs:
   Release:
     runs-on: ubuntu-20.04
     steps:
+      - uses: actions/checkout@v2
       - name: print
         run: |
           pwd 
-          ls ..
-          perl --version
+          ls 
+          perl ./print_something
+    
           
