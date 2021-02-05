@@ -8,13 +8,13 @@ on:
     branches:
       - '**'
 
-name: R-CMD-check
+name: troubleshoot
 
 jobs:
   Release:
     runs-on: ubuntu-20.04
     steps:
-      - name: First
+      - name: print
         run: |
-          ls -la
+          pwd
           
