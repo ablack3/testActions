@@ -17,5 +17,6 @@ jobs:
       - name: print
         run: |
           pwd 
+          ls
           perl --version
           
